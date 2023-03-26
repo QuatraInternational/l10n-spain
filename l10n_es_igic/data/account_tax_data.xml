@@ -14,24 +14,16 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_r_3" model="account.tax.template">
@@ -44,26 +36,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_r_7" model="account.tax.template">
@@ -80,26 +68,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_r_9_5" model="account.tax.template">
@@ -112,26 +96,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_r_15" model="account.tax.template">
@@ -144,26 +124,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_r_20" model="account.tax.template">
@@ -176,26 +152,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
     </record>
     <!-- Inversión del Sujeto Pasivo -->
@@ -209,24 +181,16 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
     </record>
     <!-- Exportaciones -->
@@ -240,24 +204,16 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
     </record>
     <!-- Operaciones exentas -->
@@ -271,24 +227,16 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
     </record>
 
@@ -303,24 +251,16 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
     </record>
 
@@ -334,24 +274,16 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
     </record>
 
@@ -366,26 +298,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_7_cmino" model="account.tax.template">
@@ -403,26 +331,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_9_5_cmino" model="account.tax.template">
@@ -436,26 +360,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_15_cmino" model="account.tax.template">
@@ -469,26 +389,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_20_cmino" model="account.tax.template">
@@ -502,26 +418,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
 
@@ -539,24 +451,16 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
     </record>
     <!-- Operaciones corrientes -->
@@ -570,24 +474,16 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_3" model="account.tax.template">
@@ -600,26 +496,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_7" model="account.tax.template">
@@ -636,26 +528,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_9_5" model="account.tax.template">
@@ -668,26 +556,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_15" model="account.tax.template">
@@ -700,26 +584,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_20" model="account.tax.template">
@@ -732,26 +612,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
 
@@ -766,24 +642,16 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_3_inv" model="account.tax.template">
@@ -796,26 +664,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_7_inv" model="account.tax.template">
@@ -828,26 +692,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_9_5_inv" model="account.tax.template">
@@ -860,26 +720,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_15_inv" model="account.tax.template">
@@ -892,26 +748,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_20_inv" model="account.tax.template">
@@ -924,26 +776,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
 
@@ -958,24 +806,16 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_i_3" model="account.tax.template">
@@ -988,26 +828,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_i_7" model="account.tax.template">
@@ -1020,26 +856,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_i_9_5" model="account.tax.template">
@@ -1052,26 +884,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_i_15" model="account.tax.template">
@@ -1084,26 +912,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_i_20" model="account.tax.template">
@@ -1116,26 +940,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
 
@@ -1150,24 +970,16 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_i_3_inv" model="account.tax.template">
@@ -1180,26 +992,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_i_7_inv" model="account.tax.template">
@@ -1212,26 +1020,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_i_9_5_inv" model="account.tax.template">
@@ -1244,26 +1048,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_i_15_inv" model="account.tax.template">
@@ -1276,26 +1076,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_sop_i_20_inv" model="account.tax.template">
@@ -1308,26 +1104,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
 
@@ -1340,33 +1132,21 @@
         <field name="amount_type">percent</field>
         <field name="chart_template_id" ref="account_chart_template_common_canary" />
         <field name="tax_group_id" ref="tax_group_igic_0" />
-                <field
+        <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_ISP3" model="account.tax.template">
@@ -1379,34 +1159,30 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_ISP7" model="account.tax.template">
@@ -1419,34 +1195,30 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_ISP95" model="account.tax.template">
@@ -1459,34 +1231,30 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_ISP15" model="account.tax.template">
@@ -1499,34 +1267,30 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_ISP20" model="account.tax.template">
@@ -1539,34 +1303,30 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4777'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4777'),
+                          }),
+                  ]"
         />
     </record>
 
@@ -1581,24 +1341,16 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',}),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_p_re03" model="account.tax.template">
@@ -1611,26 +1363,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_p_re07" model="account.tax.template">
@@ -1643,26 +1391,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_p_re095" model="account.tax.template">
@@ -1675,26 +1419,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_p_re15" model="account.tax.template">
@@ -1707,26 +1447,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
     <record id="account_tax_template_igic_p_re20" model="account.tax.template">
@@ -1739,26 +1475,22 @@
         <field
             name="invoice_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
         <field
             name="refund_repartition_line_ids"
             eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-            }),
-            (0,0, {
-                'repartition_type': 'tax',
-                'account_id': ref('l10n_es_igic.account_common_canary_4727'),
-            }),
-        ]"
+                   (0, 0, {'repartition_type': 'base',}),
+                   (0, 0, {'repartition_type': 'tax',
+                           'account_id':
+                           ref('l10n_es_igic.account_common_canary_4727'),
+                          }),
+                  ]"
         />
     </record>
 
